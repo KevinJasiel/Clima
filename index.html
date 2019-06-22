@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="clima">
+<head>
+	<script src="lib/jquery.js"></script>
+	<meta charset="utf-8">
+	<title>Clima</title>
+	<link rel="stylesheet" href="lib/boo/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href=""/>
+</head>
+<body ng-controller="temperatura">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9"> <!--<img src="images/termo.png"--><p class="titulo">Forecast</p></div>
+			<div class="col-md-1"><a href="#" class="main">Home</a></div>
+			<div class="col-md-1"><a href="#" class="main">About</a></div>
+			<div class="col-md-1"><a href="#" class="main">Contact</a></div>
+		</div>
+	</div>
+
+	<input type="text" ng-model="lugar">
+	<button ng-click="buscar(lugar)">Verificar</button>
+
+
+
+
+
+
+	<script src="lib/angular.js"></script>
+	<script src="lib/boo/js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>

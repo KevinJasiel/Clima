@@ -1,0 +1,30 @@
+.main{
+	text-decoration: none;
+}
+
+.titulo{
+	font-size: 20px;
+	color: white;
+}
+
+.propie{
+	font-family: arial, sans-serif,;
+	font-size: 30px;
+	color: white;
+}
+
+.propier{
+	font-family: arial, sans-serif,;
+	font-size: 20px;
+	color: white;
+}
+
+.date{
+	font-family: arial, sans-serif,;
+	font-size: 20px;
+	color: blue;
+}
+
+body{
+	background: url("http://www.solofondos.com/wp-content/uploads/2015/04/Paisaje-Arbol-al-Atardecer.jpg");
+}
